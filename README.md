@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Collapsible Share Button Component for React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://github.com/Isaacboxall1/Collapsible_Share_Button/blob/main/public/sharebutton.gif)
 
-## Available Scripts
+This project is a React component that provides a responsive and animated share button. Initially presented as a single button, the component unfolds into four distinct buttons when hovered over, each linking to a different social media platform: Instagram, Facebook, Twitter, and LinkedIn.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Collapsible Share Button**: A single, space-saving button that splits into four individual buttons on hover, each representing a different social media platform.
+- **Custom Links**: The component accepts custom props to assign the desired URLs for each social media platform button.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Upcoming Enhancements
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The roadmap for future updates includes:
 
-### `npm test`
+- **Configurable Styling**: The component will allow for styling customization through props, giving users control over the logo of each button, the overall size of the button, and the color scheme.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Why This Project
 
-### `npm run build`
+This project was created as a stepping stone to improve my understanding of React and CSS animations. The simplicity of the component allowed for a clear focus on these two areas, while still creating a functional and reusable component.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- JSX
+- CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+To use this component in your project:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Import the component.
+```jsx
+import ShareButton from './ShareButton'; //adjust path as necessary
+```
+2. Add the component to your JSX.
+```jsx
+<ShareButton
+  facebookURL="http://facebook.com/your-page"
+  instagramURL="http://instagram.com/your-profile"
+  twitterURL="http://twitter.com/your-handle"
+  linkedInURL="http://linkedin.com/in/your-profile"
+/>
+```

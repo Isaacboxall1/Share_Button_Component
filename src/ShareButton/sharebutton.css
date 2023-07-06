@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Montserrat+Alternates:wght@100;400;600&display=swap');
+
+
+.share {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -40px;
+    border-radius: 80px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+
+}
+
+.share span {
+    width: 200px;
+    line-height: 80px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: absolute;
+    color: rgb(87, 87, 252);
+    left: 50%;
+    margin-left: -100px;
+    opacity: 1;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    pointer-events: none;
+
+}
+
+.share nav {
+    font-size: 0;
+    
+}
+
+.share a {
+    line-height: 80px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    color: red;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.3s ease;
+    margin: 0 -20px;
+    border: none;
+}
+
+.share a:nth-child(1) {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 0;
+    border: none;
+    color: #4267B2;
+}
+.share a:nth-child(2) {
+    color: #1DA1F2;
+}
+.share a:nth-child(3) {
+    color: #0077B5;
+}
+
+
+.share:hover span {
+    opacity: 0;
+    letter-spacing: 20px;
+}
+
+.share a:nth-child(1):hover {
+    background-color: #4267B2;
+    box-shadow: 3px 1px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.share a:nth-child(2):hover {
+    background-color: #1DA1F2;
+    box-shadow: 3px 1px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.share a:nth-child(3):hover {
+    background-color: #0077B5;
+    box-shadow: 3px 1px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.share a:nth-child(4):hover {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    box-shadow: 3px 1px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.share a:nth-child(4) {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #F56040;
+}
+
+.share:hover a {
+    border-radius: 40px;
+    margin: 0 10px;
+    font-size: 35px;
+}
+.share:hover a:hover,
+.share.hover a:hover {
+    color: white;
+}
+
