@@ -1,6 +1,6 @@
 # Collapsible Share Button Component for React
 
-![](https://github.com/Isaacboxall1/Collapsible_Share_Button/blob/main/public/sharebutton.gif)
+![](https://github.com/Isaacboxall1/Share_Button_Component/blob/main/public/sharebutton.gif)
 
 This project is a React component that provides a responsive and animated share button. Initially presented as a single button, the component unfolds into four distinct buttons when hovered over, each linking to a different social media platform: Instagram, Facebook, Twitter, and LinkedIn.
 
